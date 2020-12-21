@@ -16,7 +16,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
     "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
-    "http://localhost", "http://localhost:8080", "http://localhost:8081","https://stackppapp.herokuapp.com"
+    "http://localhost", "http://localhost:8080", "http://localhost:8081","https://stackppapp.herokuapp.com","https://stackapp-app.herokuapp.com"
     
 ]
 api.add_middleware(
